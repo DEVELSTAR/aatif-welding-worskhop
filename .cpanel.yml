@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/akibwork/public_html/atif
+    - /bin/cp -R * $DEPLOYPATH
