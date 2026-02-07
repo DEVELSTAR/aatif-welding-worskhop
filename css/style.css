@@ -32,14 +32,25 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav {
+    margin-left: auto;
 }
 
 .nav ul {
