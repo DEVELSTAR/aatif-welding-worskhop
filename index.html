@@ -3,252 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Khan Welding Workshop - Professional welding services, iron gates, grills, fabrication and repair services in India. Reliable welding & fabrication services for all your needs.">
-    <meta name="keywords" content="welding workshop near me, fabrication services, iron gate welding, welding services, metal fabrication, gate repair, grill welding, shed work, welding contractor">
-    <meta name="author" content="Khan Welding Workshop">
-    <title>Khan Welding Workshop - Reliable Welding & Fabrication Services</title>
+    <meta name="description" content="Khan Welding Workshop - Premium welding, fabrication, iron gates, and grills in Chandigarh.">
+    <title>Khan Welding Workshop | Master Fabricators</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/logo.png">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
+    
+    <!-- Background Elements -->
+    <div class="glow-bg top-glow"></div>
+    <div class="glow-bg bottom-glow"></div>
+
     <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="images/logo.png" alt="Khan Welding Workshop" class="logo-image">
-                </div>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#home" class="nav-link active">Home</a></li>
-                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                        <li><a href="#services" class="nav-link">Services</a></li>
-                        <li><a href="#about" class="nav-link">About Us</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <header class="header" id="navbar">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">KHAN<span class="accent-text">WELDING</span></span>
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Our Services</a></li>
+                    <li><a href="#works" class="nav-link">Our Works</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:09779553343" class="btn btn-outline nav-btn">Call Now</a>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Khan Welding Workshop</h1>
-                    <p class="hero-tagline">Reliable Welding & Fabrication Services</p>
-                    <p class="hero-description">Professional welding solutions for all your metal fabrication needs. Quality workmanship with years of experience.</p>
-                    <div class="hero-buttons">
+        <section id="home" class="hero section">
+            <div class="hero-particles" id="particles"></div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-up">
+                    <h1 class="hero-title">
+                        Precision <span class="gradient-text">Forged</span><br>
+                        In Fire & Steel
+                    </h1>
+                    <p class="hero-description">
+                        Premium welding and custom fabrication solutions designed for durability and unmatched aesthetic appeal. Transforming raw metal into structural masterpieces.
+                    </p>
+                    <div class="hero-actions">
                         <a href="tel:09779553343" class="btn btn-primary">Call Now</a>
-                        <a href="#contact" class="btn btn-secondary">Visit Our Workshop</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section id="gallery" class="gallery">
-            <div class="container">
-                <h2 class="section-title">Our Work Gallery</h2>
-                <p class="section-subtitle">Showcasing our finest welding and fabrication projects</p>
-                
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <img src="images/image1.jpg" alt="Welding Project 1" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Custom Gate Design</h3>
-                            <p>Premium iron gate fabrication</p>
-                        </div>
+                        <a href="#services" class="btn btn-glass">Our Services</a>
+                        <a href="#works" class="btn btn-glass">View Works</a>
                     </div>
                     
-                    <div class="gallery-item">
-                        <img src="images/image2.jpg" alt="Welding Project 2" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Security Grills</h3>
-                            <p>Durable window and balcony grills</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-num counter" data-target="500">0</h3>
+                            <p class="stat-label">Projects Done</p>
                         </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image3.jpg" alt="Welding Project 3" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Metal Shed</h3>
-                            <p>Custom storage shed construction</p>
+                        <div class="stat-item">
+                            <h3 class="stat-num counter" data-target="15">0</h3>
+                            <p class="stat-label">Expert Welders</p>
                         </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image4.jpg" alt="Welding Project 4" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Railing Work</h3>
-                            <p>Staircase and balcony railings</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image5.jpg" alt="Welding Project 5" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Fabrication Project</h3>
-                            <p>Custom metal fabrication</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image6.jpg" alt="Welding Project 6" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Repair Work</h3>
-                            <p>Professional metal repair services</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image7.jpg" alt="Welding Project 7" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Decorative Work</h3>
-                            <p>Artistic metal designs</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image8.jpg" alt="Welding Project 8" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Industrial Work</h3>
-                            <p>Heavy-duty welding projects</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image9.jpg" alt="Welding Project 9" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Gate Installation</h3>
-                            <p>Complete gate fitting services</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <img src="images/image10.jpg" alt="Welding Project 10" loading="lazy">
-                        <div class="gallery-overlay">
-                            <h3>Custom Projects</h3>
-                            <p>Tailored welding solutions</p>
+                        <div class="stat-item">
+                            <h3 class="stat-num">100<span class="accent-text">%</span></h3>
+                            <p class="stat-label">Satisfaction</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="gallery-cta">
-                    <p>Need similar work? We can bring your vision to life!</p>
-                    <a href="tel:09779553343" class="btn btn-primary">Get Your Free Quote</a>
+                <div class="hero-visual reveal-scale">
+                    <div class="visual-card">
+                        <img src="images/image1.jpg" alt="Welding Process" class="hero-img">
+                        <div class="visual-overlay"></div>
+                        <div class="welding-spark spark-1"></div>
+                        <div class="welding-spark spark-2"></div>
+                        <div class="welding-spark spark-3"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="services">
+        <section id="services" class="services section">
             <div class="container">
-                <h2 class="section-title">Our Services</h2>
-                <p class="section-subtitle">Comprehensive welding and fabrication solutions</p>
-                
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">🔧</div>
-                        <h3>Welding Work</h3>
-                        <p>Professional welding services for all types of metal projects with precision and durability.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🚪</div>
-                        <h3>Iron Gates</h3>
-                        <p>Custom-designed iron gates for residential and commercial properties with security and style.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🪟</div>
-                        <h3>Grills</h3>
-                        <p>Decorative and security grills for windows, balconies, and other openings.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🏗️</div>
-                        <h3>Shed Work</h3>
-                        <p>Custom metal sheds and structures for storage, workshops, and commercial use.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🔨</div>
-                        <h3>Repair & Fabrication</h3>
-                        <p>Expert metal repair services and custom fabrication according to your specifications.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">⚙️</div>
-                        <h3>Custom Projects</h3>
-                        <p>Tailored metalwork solutions for unique requirements and special projects.</p>
-                    </div>
+                <div class="section-header reveal-up">
+                    <span class="eyebrow">Expertise</span>
+                    <h2 class="section-title">Our <span class="accent-text">Services</span></h2>
+                    <p class="section-description">We combine traditional craftsmanship with modern technology to deliver industrial-grade solutions.</p>
                 </div>
                 
-                <div class="cta-section">
-                    <p>Need something specific? We handle all types of welding projects!</p>
-                    <a href="tel:09779553343" class="btn btn-primary">Get a Free Quote</a>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">🔥</div>
+                        </div>
+                        <h3 class="service-title">Custom Fabrication</h3>
+                        <p class="service-text">Engineered steel solutions tailored to your architectural blueprints. Structural integrity meets design excellence.</p>
+                        <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">🛡️</div>
+                        </div>
+                        <h3 class="service-title">Security Gates</h3>
+                        <p class="service-text">Heavy-duty, weather-resistant iron gates providing uncompromised security without sacrificing visual appeal.</p>
+                        <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">🏗️</div>
+                        </div>
+                        <h3 class="service-title">Industrial Sheds</h3>
+                        <p class="service-text">Robust metal frameworks and roofing solutions for warehouses, workshops, and commercial properties.</p>
+                        <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card glass-card reveal-up" style="transition-delay: 0.4s;">
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">✨</div>
+                        </div>
+                        <h3 class="service-title">Decorative Grills</h3>
+                        <p class="service-text">Intricate metalwork for balconies and windows, customized to match your property's aesthetic.</p>
+                        <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+                        <div class="card-glow"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
+        <!-- Works Section -->
+        <section id="works" class="works section">
             <div class="container">
-                <h2 class="section-title">About Us</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <h3>Trusted Local Welding Experts</h3>
-                        <p><strong>Khan Welding Workshop</strong>, led by <strong>Mohd Jabbar</strong>, has been serving the local community with professional welding and fabrication services for years. We take pride in delivering high-quality workmanship on every project.</p>
-                        
-                        <h4>Why Choose Us?</h4>
-                        <ul>
-                            <li>✓ Experienced and skilled welders</li>
-                            <li>✓ Quality materials and workmanship</li>
-                            <li>✓ Affordable pricing</li>
-                            <li>✓ Timely completion of projects</li>
-                            <li>✓ Customer satisfaction guaranteed</li>
-                        </ul>
-                        
-                        <p>We understand the importance of durable and reliable metalwork for your home or business. That's why we use only the best materials and techniques to ensure long-lasting results.</p>
-                    </div>
-                    
-                    <div class="about-stats">
-                        <div class="stat">
-                            <div class="stat-number">100+</div>
-                            <div class="stat-label">Projects Completed</div>
+                <div class="section-header reveal-up">
+                    <span class="eyebrow">Portfolio</span>
+                    <h2 class="section-title">Our <span class="accent-text">Works</span></h2>
+                    <p class="section-description">A showcase of our recent high-grade fabrication and welding projects.</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <a href="images/image2.jpg" class="gallery-item glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <img src="images/image2.jpg" alt="Security Grills" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Security Grills</h4>
+                            <p>Residential Custom</p>
                         </div>
-                        <div class="stat">
-                            <div class="stat-number">5+</div>
-                            <div class="stat-label">Years Experience</div>
+                    </a>
+                    <a href="images/image3.jpg" class="gallery-item glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <img src="images/image3.jpg" alt="Shed Work" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Industrial Shed</h4>
+                            <p>Commercial Build</p>
                         </div>
-                        <div class="stat">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">Customer Satisfaction</div>
+                    </a>
+                    <a href="images/image4.jpg" class="gallery-item glass-card reveal-up wide-item" style="transition-delay: 0.3s;">
+                        <img src="images/image4.jpg" alt="Railing Work" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Balcony Railings</h4>
+                            <p>Premium Ironwork</p>
                         </div>
-                    </div>
+                    </a>
+                    <a href="images/image5.jpg" class="gallery-item glass-card reveal-up tall-item" style="transition-delay: 0.1s;">
+                        <img src="images/image5.jpg" alt="Heavy Metal Fabrication" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Heavy Fabrication</h4>
+                            <p>Industrial Sector</p>
+                        </div>
+                    </a>
+                    <a href="images/image6.jpg" class="gallery-item glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <img src="images/image6.jpg" alt="Repair Work" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Structural Repair</h4>
+                            <p>Maintenance Operations</p>
+                        </div>
+                    </a>
+                    <a href="images/image7.jpg" class="gallery-item glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <img src="images/image7.jpg" alt="Decorative Metalarts" loading="lazy">
+                        <div class="gallery-hover">
+                            <h4>Artistic Forging</h4>
+                            <p>Bespoke Design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-more reveal-up">
+                    <button class="btn btn-outline" onclick="window.location.href='#contact'">Request Custom Portfolio</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-banner section">
+            <div class="container cta-container glass-card reveal-up">
+                <div class="cta-glow"></div>
+                <h2>Need a Custom Blueprint Brought to Life?</h2>
+                <p>Our engineers are ready to review your requirements and provide a high-precision quote.</p>
+                <div class="cta-buttons">
+                    <a href="tel:09779553343" class="btn btn-primary">Call: 097795 53343</a>
+                    <a href="#contact" class="btn btn-glass">Send Requirements</a>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact">
+        <section id="contact" class="contact section">
             <div class="container">
-                <h2 class="section-title">Contact Us</h2>
-                <p class="section-subtitle">Get in touch for your welding needs</p>
+                <div class="section-header reveal-up">
+                    <span class="eyebrow">Connect</span>
+                    <h2 class="section-title">Initiate <span class="accent-text">Project</span></h2>
+                    <p class="section-description">Reach out to our fabrication experts today.</p>
+                </div>
                 
-                <div class="contact-content">
-                    <div class="contact-cta">
-                        <h3>Ready to Start Your Project?</h3>
-                        <p>Call us today for a free consultation and quote. We're here to help with all your welding and fabrication needs.</p>
-                        <a href="tel:09779553343" class="btn btn-primary btn-large">Call Now: 097795 53343</a>
-                        <p class="contact-note">Or visit our workshop at near Khera Mandir, Old Indira Colony, Sector 13, Chandigarh</p>
+                <div class="contact-grid">
+                    <div class="contact-info reveal-up" style="transition-delay: 0.1s;">
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Workshop Location</h3>
+                                <p>Near Khera Mandir, Old Indira Colony,<br>Sector 13, Chandigarh, 160101</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Direct Line</h3>
+                                <p><a href="tel:09779553343">+91 97795 53343</a></p>
+                                <p class="contact-subtext">Available Mon-Sat, 9AM-8PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email Query</h3>
+                                <p><a href="mailto:info@khanwelding.com">info@khanwelding.com</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -257,24 +263,15 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>Khan Welding Workshop</h3>
-                    <p>Your trusted partner for all welding and fabrication services.</p>
-                </div>
-                <div class="footer-contact">
-                    <p><strong>Phone:</strong> <a href="tel:09779553343">097795 53343</a></p>
-                    <p><strong>Address:</strong> near Khera Mandir, Old Indira Colony, New Indira Colony, Sector 13, Chandigarh, 160101</p>
-                </div>
+        <div class="container footer-bottom">
+            <div class="social-links">
+                <a href="#" class="social-link" title="Facebook">FB</a>
+                <a href="#" class="social-link" title="Instagram">IG</a>
+                <a href="#" class="social-link" title="WhatsApp">WA</a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Khan Welding Workshop. All rights reserved.</p>
-                <p>Website created by <strong>Akibworks</strong></p>
-            </div>
+            <p>&copy; 2024 Khan Welding Workshop. All rights reserved.</p>
+            <p>Designed with precision by <strong>Akibworks</strong></p>
         </div>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
