@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <rect width="100%" height="100%" fill="none"/>
+  <g>
+    <circle cx="90" cy="100" r="60" fill="#facc15"/>
+    <text x="90" y="118" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="72" text-anchor="middle" fill="#0f172a">AW</text>
+  </g>
+  <text x="220" y="120" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="48" fill="#ffffff">AkibWorks</text>
+  <text x="220" y="152" font-family="Inter, Arial, sans-serif" font-weight="400" font-size="18" fill="#9ca3af">Websites &amp; Apps for Local Businesses</text>
+</svg>

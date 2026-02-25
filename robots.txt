@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Crawl-delay: 1
+
+Sitemap: https://khanweldingworkshop.com/sitemap.xml
